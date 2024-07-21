@@ -1,0 +1,10 @@
+[
+    {
+        "role": "system",
+        "content": "Task: _ _ . Follow the JSON schema strictly, using only provided data.\nJSON Schema: json{ _ _ }\nInstructions:\n1. Data Extraction and Mapping: Carefully identify and map data from the OCR text to the corresponding fields in the JSON schema. Ensure that all entries are matched accurately.\n2. Include Only Existing Data: Populate the JSON object with data explicitly available from the OCR text. Do not include any fields for which data is not provided.\n3. Compact Formatting: Format the JSON object compactly, eliminating unnecessary whitespace to maximize space efficiency.\n4. Maintain Data Integrity: Ensure the accuracy and integrity of the data are preserved. Avoid making inferences or adding information not present in the OCR text.\n5. Validate Against Schema: Ensure that the JSON object adheres to the structure, data types, and constraints specified in the JSON schema.\n6. Efficient Processing: Aim for a minimal and efficient representation of data, focusing on extracting and representing each detail with precision.\nGoal: Deliver a JSON object that precisely mirrors the data from the OCR text, ensuring that the entries are analyzed and extracted with utmost care, ready for immediate use in subsequent data processing tasks."
+    },
+    {
+        "role": "user",
+        "content": null
+    }
+]

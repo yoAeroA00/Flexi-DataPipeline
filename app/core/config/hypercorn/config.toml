@@ -1,0 +1,17 @@
+alpn_protocols = ["h2", "h3"]
+backlog = 30
+bind = "0.0.0.0:443"
+certfile = "app/core/config/hypercorn/certs/cert.pem"
+h2_max_concurrent_streams = 30
+include_server_header = false
+keep_alive_max_requests = 30
+keep_alive_timeout = 300
+keyfile = "app/core/config/hypercorn/certs/cert_key.pem"
+max_app_queue_size = 10
+# max_requests = 30
+# max_requests_jitter = 5
+quic_bind = "0.0.0.0:4433"
+verify_flags = 15
+verify_mode = 1
+worker_class = "uvloop"
+workers = 1
