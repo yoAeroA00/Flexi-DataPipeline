@@ -2,12 +2,12 @@
 
 ## Introduction
 
-Welcome to the **FlexibleDataPipeline_OCR-LLM-MongoDB** project! This repository hosts a robust and adaptable data pipeline designed to convert images and PDFs, into a defined JSON schema. Leveraging the power of Azure OCR and Azure AI (ChatGPT), this pipeline efficiently processes diverse image types, transforming them into structured data stored in MongoDB. The flexibility of the code allows easy adaptation to different input formats and schemas, making it a versatile solution for various data processing needs.
+Welcome to the **Flexi-DataPipeline** project! This repository hosts a robust and adaptable data pipeline designed to convert images and PDFs, including unstructured data, into a defined JSON schema. Leveraging the power of Azure OCR and Azure AI (LLM: ChatGPT), this pipeline efficiently processes diverse image types, transforming them into structured data stored in MongoDB. The flexibility of the code allows easy adaptation to different input formats and schemas, making it a versatile solution for various data processing needs.
 
 ## Features
 
 - **Azure OCR Integration**: Utilize Azure's Optical Character Recognition (OCR) capabilities to accurately extract text from images and PDFs.
-- **Azure AI (ChatGPT) Integration**: Process extracted text using Azure AI (ChatGPT) to ensure accurate and context-aware data transformation.
+- **Azure AI (ChatGPT) Integration**: Process extracted text using Azure AI (LLM: ChatGPT) to ensure accurate and context-aware data transformation.
 - **MongoDB Storage**: Store the structured data in MongoDB, a NoSQL database known for its scalability and flexibility.
 - **Customizable JSON Schema**: Easily adapt the output JSON schema to fit your specific requirements.
 - **Support for Various Input Formats**: Handle a wide range of image and PDF formats, ensuring broad applicability.
